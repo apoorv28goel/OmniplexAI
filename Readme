@@ -1,0 +1,46 @@
+Submited in TiDB Future App Hackathon 2023
+
+Inspiration
+The inspiration behind the project, drawing parallels from Jarvis in the Iron Man series, is to create a highly advanced AI tool that goes beyond conventional sentiment analysis. The project aims to develop an AI-driven system that acts as an indispensable aid for users, assisting them in various tasks and decision-making processes.
+
+What it does
+Our project is a proof-of-concept which ultimately aims to create a highly versatile and powerful computation tool with the ultimate goal of handling a wide array of problems. At its current stage, the tool is already equipped to provide insightful answers to queries, perform sentiment analysis, and efficiently store data using TiDB. For POC, we have added a use case of offering stock trading signals.
+
+How we built it
+Our project draws inspiration from the open-source community, leveraging the power of open-source transformer models and Langchain technology to develop our computation tool. Through the utilization of open-source transformer models and the innovative Langchain, we have laid the foundation for a cutting-edge and inclusive computation platform, promoting transparency, collaboration, and continuous improvement in our journey toward a more capable and versatile tool.
+
+Challenges we ran into
+During the development process, we encountered several challenges that required innovative solutions:
+
+Adapting Giant AI LLM Models to Resource-Constrained Environments: One of the major hurdles was running large AI LLM models in resource-constrained environments while ensuring optimal performance. We needed to find ways to make these models work efficiently with limited resources without compromising their capabilities.
+Integrating OpenAI's Langchain Library with Other Open-Source Models: Another significant challenge involved seamlessly incorporating OpenAI's Langchain Library, designed for ChatGPT, with other open-source models. We aimed to create a cohesive and adaptable ecosystem where Langchain could interact with various open-source models, enabling enhanced functionality and collaboration between different AI components.
+Accomplishments that we're proud of
+We take immense pride in our noteworthy achievements throughout the project:
+
+Efficient Utilization of AI Models: Overcoming the challenge of limited resources, we successfully managed to run two AI models, including the latest llama 2 from Meta and Google's Bert for sentiment analysis, efficiently within the constraints of under 11GB video RAM.
+Universal Adaptation of Langchain: We achieved a significant milestone by extending the capabilities of OpenAI's Langchain to be compatible with any open-source LLM (Large Language Model). This achievement allows seamless collaboration and integration with various LLMs, fostering a more versatile and interconnected computation environment.
+Tackling Model Hallucination: We successfully implemented measures to address the issue of model hallucination, ensuring that the AI models remain focused on the problem at hand. By mitigating this challenge, we enhance the reliability and accuracy of our computation tool, ensuring trustworthy results for users.
+Tools: integrated
+Google search
+Duck duck go search
+Google Bert sentiment analysis
+TiDB data store
+Examples:
+2 examples are attached in the pictures of the project
+
+Example 1 shows how you can give connecting tasks to the controller.
+Example 2 shows that the controller can perform more than 2 tasks in a given query
+Limitations:
+We are currently limited by the compute which is available to us.
+Larger models will perform better.
+What we learned
+We learned valuable lessons and gained insights that have enriched our knowledge and expertise in several areas:
+
+Resource Optimisation
+Integration of Open-Source Tools
+Connecting TiDB to AI tools
+What's next for OmniplexAI: The Universal Computation Suite
+Our next objective is to integrate this AI model with AWS services, particularly Lambda, to transform it into an event-driven project. By doing so, we aim to create a streamlined and efficient system that automatically processes user inputs for sentiment analysis. Additionally, we plan to develop a user-friendly dashboard that will enhance the overall user experience, providing a simple and intuitive interface for interacting with the sentiment analysis tool. Through this integration with AWS and the dashboard development, we anticipate optimizing the accessibility and usability of our solution.
+
+youtube
+https://youtu.be/KjxXG-mYsIo
